@@ -28,11 +28,12 @@
         }
     </table>
     <div class="panel-footer add-item-form">
-        <form>
+        <form id="todoForm">
             <div id="add-item-error" class="text-danger"></div>
             <label for="add-item-title">Add a new item:</label>
-            <input id="add-item-title">
-            <button type="button" id="add-item-button">Add</button>
+            <input type="text" id="add-item-title" />
+            <input type="date" id="add-item-date" />
+            <button type="submit" id="add-item-button">Add</button>
         </form>
     </div>
 </div>

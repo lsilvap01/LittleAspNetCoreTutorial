@@ -31,5 +31,15 @@ namespace AspNetCoreTodo.Services
 
             return Task.FromResult(items);
         }
+
+        public async Task<bool> AddItemAsync(NewTodoItem newItem)
+        {
+            return true;
+        }
+
+        public async Task<bool> MarkDoneAsync(Guid id)
+        {
+            return true;
+        }
     }
 }
